@@ -4,8 +4,9 @@
   "description": "workshop on making small express app with a database connection",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
-    "dev": "nodemon server/index.js"
+    "start": "NODE_ENV=production node server/index.js",
+    "dev": "NODE_ENV=development nodemon server/index.js",
+    "test": "NODE_ENV=test jest"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "pg": "^7.12.1"
   },
   "devDependencies": {
+    "jest": "^27.0.6",
     "nodemon": "^1.19.1"
   }
 }
