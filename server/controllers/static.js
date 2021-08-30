@@ -7,4 +7,8 @@ module.exports = [
     name: 'Shireen',
     location: 'Nazareth'
   },
+  {
+    name:'Noor',
+    location:'Khanyounis'
+  }
 ];
