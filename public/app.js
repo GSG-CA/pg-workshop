@@ -1,4 +1,4 @@
-fetch("/users")
+fetch("/db-users")
   .then(res => res.json())
   .then(users => {
     const table = document.getElementById("users-table");
